@@ -1,0 +1,32 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+  roles_path: 'test/roles'
+  environments_path: 'test/environments'
+  client_rb:
+    environment: attributes
+
+platforms:
+  - name: centos-6.4
+
+suites:
+  - name: default
+    run_list:
+      - recipe[attribute_default::default]
+      - recipe[attribute_default::set_attributes]
+      - role[default]
+      - recipe[attribute_force_default::default]
+      - recipe[attribute_force_default::set_attributes]
+      - recipe[attribute_normal::default]
+      - recipe[attribute_normal::set_attributes]
+      - recipe[attribute_override::default]
+      - recipe[attribute_override::set_attributes]
+      - role[override]
+      - recipe[attribute_force_override::default]
+      - recipe[attribute_force_override::set_attributes]
+      - recipe[attribute_merge::ohai_plugin]
+      - recipe[attribute_merge::print_results]
+    attributes:

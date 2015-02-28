@@ -1,0 +1,22 @@
+{
+  "name": "override",
+  "description": "Override Role Attributes",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+    "precedence": {
+      "lvl_11": "Precedence: override - Role: override",
+      "lvl_12": "Precedence: override - Role: override",
+      "lvl_13": "Precedence: override - Role: override",
+      "lvl_14": "Precedence: override - Role: override",
+      "lvl_15": "Precedence: override - Role: override"
+    }
+  },
+  "chef_type": "role",
+  "run_list": [
+
+  ],
+  "env_run_lists": {
+  }
+}

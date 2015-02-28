@@ -1,0 +1,18 @@
+{
+  "name": "attribute_override",
+  "description": "",
+  "cookbook_versions": {
+  },
+  "json_class": "Chef::Environment",
+  "chef_type": "environment",
+  "default_attributes": {
+  },
+  "override_attributes": {
+    "precedence": {
+      "lvl_12": "Precedence: override - Environment: attribute_override",
+      "lvl_13": "Precedence: override - Environment: attribute_override",
+      "lvl_14": "Precedence: override - Environment: attribute_override",
+      "lvl_15": "Precedence: override - Environment: attribute_override"
+    }
+  }
+}

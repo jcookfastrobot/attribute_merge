@@ -1,0 +1,11 @@
+# Default Attributes from a recipe
+node.force_default[:precedence][:lvl_6] = "Precedence: force_default - Coobook: attribute_force_default - Recipe: set_attributes.rb"
+node.force_default[:precedence][:lvl_7] = "Precedence: force_default - Coobook: attribute_force_default - Recipe: set_attributes.rb"
+node.force_default[:precedence][:lvl_8] = "Precedence: force_default - Coobook: attribute_force_default - Recipe: set_attributes.rb"
+node.force_default[:precedence][:lvl_9] = "Precedence: force_default - Coobook: attribute_force_default - Recipe: set_attributes.rb"
+node.force_default[:precedence][:lvl_10] = "Precedence: force_default - Coobook: attribute_force_default - Recipe: set_attributes.rb"
+node.force_default[:precedence][:lvl_11] = "Precedence: force_default - Coobook: attribute_force_default - Recipe: set_attributes.rb"
+node.force_default[:precedence][:lvl_12] = "Precedence: force_default - Coobook: attribute_force_default - Recipe: set_attributes.rb"
+node.force_default[:precedence][:lvl_13] = "Precedence: force_default - Coobook: attribute_force_default - Recipe: set_attributes.rb"
+node.force_default[:precedence][:lvl_14] = "Precedence: force_default - Coobook: attribute_force_default - Recipe: set_attributes.rb"
+node.force_default[:precedence][:lvl_15] = "Precedence: force_default - Coobook: attribute_force_default - Recipe: set_attributes.rb"

@@ -1,0 +1,11 @@
+{
+  "id": "responsivesupply",
+  "comment": "Openstack Credentials for Responsive Supply Tenant",
+  "openstack": {
+    "user": "responsivesupply",
+    "api_key": "iforgot",
+    "url": "https://10.9.55.15:5000/v2.0/tokens",
+    "tenant": "responsivesupply",
+    "net_id": "3f2d266d-4693-4a2b-a6f4-28e11845d82d"
+  }
+}
